@@ -23,8 +23,24 @@ const batangas = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.islacascajal.org'),
   title: 'Fundación Isla Cascajal | Construyendo UniverCiudad',
   description: 'Somos una organización creada en 2008 que trabaja por el desarrollo social de las comunidades más vulnerables a través de programas educativos, etnoeducativos, artístico culturales y de acompañamiento.',
+  openGraph: {
+    title: 'Fundación Isla Cascajal | Construyendo UniverCiudad',
+    description: 'Somos una organización creada en 2008 que trabaja por el desarrollo social de las comunidades más vulnerables.',
+    url: 'https://www.islacascajal.org',
+    siteName: 'Fundación Isla Cascajal',
+    images: [
+      {
+        url: '/logo.png',
+        width: 800,
+        height: 800,
+      },
+    ],
+    locale: 'es_CO',
+    type: 'website',
+  },
   generator: 'v0.app',
   keywords: ['fundación', 'ONG', 'desarrollo social', 'etnoeducación', 'Colombia', 'comunidades vulnerables', 'inclusión social'],
   icons: {

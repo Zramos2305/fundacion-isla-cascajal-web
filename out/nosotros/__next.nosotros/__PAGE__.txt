@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[96237,["/_next/static/chunks/0~z~xc3p6s6br.js","/_next/static/chunks/116v9_~klimvy.js","/_next/static/chunks/0-8l3naptk15w.js","/_next/static/chunks/0p94s~6_pmeg4.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0lzlcb7ewu7kt.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-[70vh] flex items-center justify-center pt-24 pb-12","children":["$","div",null,{"className":"text-center","children":[["$","h1",null,{"className":"text-4xl font-bold text-gray-900 mb-4","children":"Nuestro Equipo"}],["$","p",null,{"className":"text-gray-500","children":"Próximamente conocerás a las personas detrás de la Fundación."}]]}]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"h5K6O9OtsHMUkP9Hh1Tps"}
+4:null

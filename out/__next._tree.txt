@@ -1,0 +1,5 @@
+:HL["/_next/static/chunks/0c8p6d48cba_a.css","style"]
+:HL["/_next/static/chunks/11tqcde-8eu86.css","style"]
+:HL["/_next/static/media/Batangas%20Bold%20700-s.p.01ntj0tac4bdi.otf","font",{"crossOrigin":"","type":"font/otf"}]
+:HL["/_next/static/media/e8f2fbee2754df70-s.p.0fzkl03jw-sdz.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"h5K6O9OtsHMUkP9Hh1Tps"}
