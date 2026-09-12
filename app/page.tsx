@@ -6,7 +6,6 @@ import { EnfoqueDiferencial } from "@/components/enfoque-diferencial"
 import { Impacto } from "@/components/impacto"
 import { Programas } from "@/components/programas"
 import { Contact } from "@/components/contact"
-
 export default function Home() {
   return (
     <>

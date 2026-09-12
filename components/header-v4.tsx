@@ -119,16 +119,16 @@ export function HeaderV4() {
                 {activeDropdown === 'nosotros' && (
                   <div className="absolute top-full left-1/2 -translate-x-1/2 pt-2 z-50">
                     <div className="w-64 bg-white rounded-2xl shadow-xl py-3 border border-gray-100 flex flex-col">
-                      <Link href="#sobre-nosotros" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
+                      <Link href="/#sobre-nosotros" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
                         Sobre Nosotros
                       </Link>
-                      <Link href="#campos" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
+                      <Link href="/#campos" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
                         Campos de Acción
                       </Link>
-                      <Link href="#enfoque" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
+                      <Link href="/#enfoque" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
                         Enfoque Diferencial
                       </Link>
-                      <Link href="#impacto" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
+                      <Link href="/#impacto" className="px-5 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-brand-teal font-medium">
                         Impacto y Compromiso
                       </Link>
                     </div>
@@ -142,11 +142,14 @@ export function HeaderV4() {
               <Link href="/salud" className="hover:text-brand-teal transition-colors">
                 Salud
               </Link>
-              <Link href="#alianzas" className="hover:text-brand-teal transition-colors">
+              <Link href="/#alianzas" className="hover:text-brand-teal transition-colors">
                 Alianzas
               </Link>
               <Link href="/empleo" className="hover:text-brand-teal transition-colors">
                 Bolsa de empleo
+              </Link>
+              <Link href="/institucional" className="hover:text-brand-teal transition-colors">
+                Institucional
               </Link>
             </nav>
           </div>
@@ -180,17 +183,19 @@ export function HeaderV4() {
         <div className="lg:hidden absolute top-full left-4 right-4 mt-2 bg-white rounded-3xl shadow-2xl p-6 border border-gray-100 flex flex-col gap-4 max-h-[80vh] overflow-y-auto">
           <Link href="/equipo" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Nuestro Equipo</Link>
           <div className="h-px bg-gray-100" />
-          <Link href="#sobre-nosotros" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Sobre Nosotros</Link>
+          <Link href="/#sobre-nosotros" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Sobre Nosotros</Link>
           <div className="h-px bg-gray-100" />
-          <Link href="#campos" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Campos de Acción</Link>
+          <Link href="/#campos" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Campos de Acción</Link>
           <div className="h-px bg-gray-100" />
           <Link href="/educacion" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Educación</Link>
           <div className="h-px bg-gray-100" />
           <Link href="/salud" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Salud</Link>
           <div className="h-px bg-gray-100" />
-          <Link href="#alianzas" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Alianzas</Link>
+          <Link href="/#alianzas" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Alianzas</Link>
           <div className="h-px bg-gray-100" />
           <Link href="/empleo" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Bolsa de empleo</Link>
+          <div className="h-px bg-gray-100" />
+          <Link href="/institucional" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Institucional</Link>
           
           <Button asChild className="w-full mt-4 bg-[#2A6573] hover:bg-[#1E4D5A] text-white rounded-full h-12 text-lg font-bold">
             <Link href="https://fundacion.islacascajal.org/registro" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>

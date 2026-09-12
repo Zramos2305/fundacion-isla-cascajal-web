@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 
 import { useState, useRef } from "react"
 import { Play, Volume2 } from "lucide-react"
+import { VirtualRadio } from "@/components/virtual-radio"
 
 export function HeroV5() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -107,6 +108,8 @@ export function HeroV5() {
               Conócenos
             </Link>
           </Button>
+          
+          <VirtualRadio />
 
           {/* Audio Welcome Button */}
           <button 

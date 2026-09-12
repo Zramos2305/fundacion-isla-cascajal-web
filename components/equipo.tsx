@@ -12,7 +12,7 @@ const team = [
     name: "Mansa Bryan Mosquera",
     role: "Director Ejecutivo",
     image: "/images/A1.png",
-    profile: "Profesional en Artes y la Primera Infancia, docente universitario, investigador y oralitor de la cultura de los pueblos de la diáspora africana, líder social y comunitario \nHeredero de los saberes ancestrales de los pueblos del Pacífico Colombiano."
+    profile: " Fundación Isla Cascajal: Hijo del pacífico colombiano y descendiente de Alkebulan, es profesional en Artes y en la Primera Infancia, investigador y oralitor de la cultura de los pueblos de la diáspora africana en Colombia, donde además es líder social y comunitario.   Heredero de los saberes ancestrales de los pueblos del Pacífico Colombiano e integrante del movimiento de narradores orales y oralitores en Colombia.\n Este docente universitario con una trayectoria de más de 25 años, en la actualidad dirige esta organización, desde donde se hace una apuesta social con la etnoeducación y la educación para adultos, además del acceso a la educación superior en todos los niveles formativos para todas las personas especialmente la comunidad NARP y las comunidades vulnerables."
   },
   {
     id: 2,
