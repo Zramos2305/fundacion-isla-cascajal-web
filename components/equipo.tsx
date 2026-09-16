@@ -10,9 +10,9 @@ const team = [
   {
     id: 1,
     name: "Mansa Bryan Mosquera",
-    role: "Director Ejecutivo",
-    image: "/images/A1.png",
-    profile: " Fundación Isla Cascajal: Hijo del pacífico colombiano y descendiente de Alkebulan, es profesional en Artes y en la Primera Infancia, investigador y oralitor de la cultura de los pueblos de la diáspora africana en Colombia, donde además es líder social y comunitario.   Heredero de los saberes ancestrales de los pueblos del Pacífico Colombiano e integrante del movimiento de narradores orales y oralitores en Colombia.\n Este docente universitario con una trayectoria de más de 25 años, en la actualidad dirige esta organización, desde donde se hace una apuesta social con la etnoeducación y la educación para adultos, además del acceso a la educación superior en todos los niveles formativos para todas las personas especialmente la comunidad NARP y las comunidades vulnerables."
+    role: "CEO",
+    image: "/images/A1.jpeg",
+    profile: " Hijo del pacífico colombiano y descendiente de Alkebulan, es profesional en Artes y en la Primera Infancia, investigador y oralitor de la cultura de los pueblos de la diáspora africana en Colombia, donde además es líder social y comunitario.   Heredero de los saberes ancestrales de los pueblos del Pacífico Colombiano e integrante del movimiento de narradores orales y oralitores en Colombia.   Este docente universitario con una trayectoria de más de 25 años, en la actualidad dirige esta organización, desde donde se hace una apuesta social con la etnoeducación y la educación para adultos, además del acceso a la educación superior en todos los niveles formativos para todas las personas especialmente la comunidad NARP y las comunidades vulnerables. "
   },
   {
     id: 2,
@@ -34,6 +34,13 @@ const team = [
     role: "Subdirectora de Extensión y Cosmovisión Etnoeducativa",
     image: "/images/A4.png",
     profile: "Es Licenciada en Educación Preescolar, Especialista en Pedagogía Infantil, Magíster en Educación y candidata a Doctora en Educación, experta y líder en gestión pedagógica con profunda vocación fortaleza en el campo de la Educación Inicial, la Primera Infancia y la gestión social.\n\nReferente Territorial de Educación Inicial, líder dinamizadora de procesos de cualificación a maestras y maestros de zonas urbanas y rurales a través de los colectivos pedagógicos del territorio, desempeñándose también como Asesora y Coordinadora Pedagógica de programas del ICBF y Tutora del programa PTAF.I 3.0 del Ministerio de Educación Nacional. Amplia experiencia en rectoría y coordinación académica de centros educativos públicos y privados.\n\nAuditora Interna de Calidad y Gestión de la Calidad para el sector educativo, certificada por ICONTEC Internacional. Líder por más de una década de diseño y ejecución de proyectos sobre niñez, familia y liderazgo en la región Pacífico y Caribe. Experta en articulación de estrategias educativas y empoderamiento a los docentes para enriquecer los ambientes de aprendizaje."
+  },
+  {
+    id: 4,
+    name: "Germán Enrique Ruiz Valencia",
+    role: "Coordinador Jurídico ",
+    image: "/images/GER.jpeg",
+    profile: "Abogado litigante en ejercicio y especialista en Derecho Administrativo, con experiencia en la defensa de derechos e intereses colectivos y en la representación de comunidades, especialmente de sectores en condición de vulnerabilidad. Cuenta con experiencia en procesos relacionados con acciones de grupo, participación ciudadana y defensa de los derechos de las comunidades. Complementa su formación jurídica con una amplia trayectoria en el sector cultural y musical, como docente universitario y músico especializado en instrumentos de percusión, liderando proyectos artísticos de carácter nacional e internacional y en procesos comunitarios orientados a la formación, el bienestar y el desarrollo integral de niños y jóvenes.  Su experiencia interdisciplinaria entre el Derecho, la cultura, la educación y el trabajo comunitario le ha permitido liderar y acompañar iniciativas encaminadas a generar oportunidades, fortalecer el tejido social y promover nuevas perspectivas de desarrollo y proyecto de vida para las nuevas generaciones. Se caracteriza por su liderazgo, compromiso social, capacidad de gestión, vocación de servicio y sensibilidad frente a las necesidades de las comunidades, integrando sus conocimientos profesionales y culturales para contribuir a la construcción de una sociedad más justa, participativa e incluyente. "
   },
   {
     id: 5,
@@ -73,7 +80,7 @@ const team = [
   {
     id: 10,
     name: "Roberto Robles Castrillo",
-    role: "Coordinador las Artes, las Culturas y los Saberes",
+    role: "Coordinador de las Artes, las Culturas y los Saberes",
     image: "/images/A10.png",
     profile: "Magister en educación superior, Especialista en docencia universitaria, Licenciado en Educación artística, es influenciado por el maestro de la crítica de la mirada Bruno Tackels. Discípulo del pedagogo Eduardo Pastrana Rodríguez. Creador del programa de pregrado Gestión cultural y Artística del FCECEP, Ministerio de Educación Nacional de Colombia.\n\nGestor cultural, investigador y docente con larga experiencia en la administración cultural y artística en educación superior. Lideró la coordinación de arte y cultura de la Universidad Santiago de Cali, donde diseñó e implementó programas académicos y proyectos de formación en gestión cultural, educación artística y políticas culturales.\n\nCo-investigador en proyectos del Ministerio de Cultura sobre emprendimiento cultural y políticas públicas, y autor de libros como Partitura de las Emociones y Sensibilidad estética entre saberes científicos y artísticos. Su trayectoria incluye participación en redes de gestores culturales, formulación de planes decenales de cultura y dirección del Observatorio Cultural de Cali, consolidándose como un referente en el diseño, planeación y evaluación de proyectos culturales y educativos."
   },
@@ -91,6 +98,7 @@ const team = [
     image: "/images/A12.png",
     profile: "Maestra de Matemáticas con formación en Etnoeducación, comprometida con la integración de los saberes ancestrales y la enseñanza científica en contextos comunitarios. Su trayectoria combina la rigurosidad académica con un enfoque intercultural, promoviendo procesos educativos que fortalecen la identidad cultural y el desarrollo social.\n\nHa liderado iniciativas pedagógicas que vinculan la enseñanza de las matemáticas con la realidad territorial y comunitaria, generando metodologías inclusivas que reconocen la diversidad cultural y fomentan la participación de estudiantes y líderes sociales. Su gestión se orienta a la construcción de proyectos educativos que contribuyen a la equidad, la cohesión social y la sostenibilidad comunitaria.\n\nTiene reconocimiento y visibilización en diversos escenarios de los derechos de las comunidades étnicas, como en la Mesa Nacional de Mujeres Negras, Afrocolombianas, Raizales y Palenqueras. Ha sido destacada en procesos comunitarios orientados al empoderamiento femenino y la participación política con enfoque étnico en el departamento del Valle del Cauca."
   }
+
 ]
 
 export function Equipo() {
