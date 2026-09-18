@@ -1,6 +1,17 @@
 import { FileText, Music, Download } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: 'Información Institucional y Documentos | Fundación Isla Cascajal',
+  description: 'Descarga formatos oficiales, documentos institucionales y conoce el himno y símbolos de la Fundación Isla Cascajal.',
+  openGraph: {
+    title: 'Información Institucional y Documentos | Fundación Isla Cascajal',
+    description: 'Transparencia, formatos oficiales e identidad institucional.',
+  },
+}
 
 export default function InstitucionalPage() {
+
   return (
     <main className="min-h-screen pt-32 pb-24 bg-gray-50">
       <div className="container mx-auto px-4 max-w-5xl">

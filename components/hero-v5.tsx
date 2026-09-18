@@ -33,9 +33,11 @@ export function HeroV5() {
           src="/images/INICIO.png"
           alt="Comunidad UniverCiudad"
           fill
+          sizes="100vw"
           className="object-cover"
           priority
         />
+
         {/* Solid Teal Overlay similar to the screenshot */}
         <div className="absolute inset-0 bg-[#0c404d]/60 mix-blend-multiply" />
         <div className="absolute inset-0 bg-[#0c404d]/40" />
@@ -97,28 +99,34 @@ export function HeroV5() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap"
         >
-          <Button asChild size="lg" className="bg-[#2A6573] text-white hover:bg-[#1E4D5A] rounded-full px-8 py-6 text-lg font-medium transition-all">
-            <Link href="/dona">
-              Dona Ahora
-            </Link>
-          </Button>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <Button asChild size="lg" className="bg-[#2A6573] text-white hover:bg-[#1E4D5A] rounded-full px-8 py-6 text-lg font-medium transition-all shadow-xl hover:shadow-[#2A6573]/40">
+              <Link href="/dona">
+                Dona Ahora
+              </Link>
+            </Button>
+          </motion.div>
 
-          <Button asChild size="lg" className="bg-[#F4B860] text-[#0a3842] hover:bg-[#e0a44f] rounded-full px-8 py-6 text-lg font-bold transition-all">
-            <Link href="#nosotros">
-              Conócenos
-            </Link>
-          </Button>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            <Button asChild size="lg" className="bg-[#F4B860] text-[#0a3842] hover:bg-[#e0a44f] rounded-full px-8 py-6 text-lg font-bold transition-all shadow-xl hover:shadow-[#F4B860]/40">
+              <Link href="/#sobre-nosotros">
+                Conócenos
+              </Link>
+            </Button>
+          </motion.div>
           
           <VirtualRadio />
 
           {/* Audio Welcome Button */}
-          <button 
+          <motion.button 
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
             onClick={toggleAudio}
-            className="flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-full px-6 py-4 text-lg font-medium transition-all shadow-lg"
+            className="flex items-center justify-center gap-3 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white rounded-full px-6 py-4 text-lg font-medium transition-all shadow-lg hover:shadow-white/20"
           >
-            {isPlaying ? <Volume2 className="w-5 h-5 animate-pulse" /> : <Play className="w-5 h-5 ml-1" />}
+            {isPlaying ? <Volume2 className="w-5 h-5 animate-pulse text-brand-sand" /> : <Play className="w-5 h-5 ml-1" />}
             {isPlaying ? "Escuchando..." : "Escuchar Bienvenida"}
-          </button>
+          </motion.button>
           
           <audio 
             ref={audioRef} 
@@ -127,6 +135,7 @@ export function HeroV5() {
             className="hidden" 
           />
         </motion.div>
+
       </div>
 
     </section>

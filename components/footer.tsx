@@ -6,13 +6,15 @@ import Script from "next/script"
 import { Mail, Phone, Instagram, Heart, ArrowUp, Facebook, Youtube, MapPin } from "lucide-react"
 
 const navLinks = [
-  { href: "#inicio", label: "Inicio" },
-  { href: "#nosotros", label: "Nosotros" },
-  { href: "#campos", label: "Campos de Acción" },
-  { href: "#impacto", label: "Impacto" },
-  { href: "#programas", label: "Programas" },
-  { href: "#contacto", label: "Contacto" },
+  { href: "/", label: "Inicio" },
+  { href: "/#sobre-nosotros", label: "Nosotros" },
+  { href: "/#campos", label: "Campos de Acción" },
+  { href: "/#impacto", label: "Impacto" },
+  { href: "/#programas", label: "Programas" },
+  { href: "/#contacto", label: "Contacto" },
 ]
+
+
 
 const socialLinks = [
   { icon: Instagram, href: "https://instagram.com/fundacionislacascajal", label: "Instagram" },

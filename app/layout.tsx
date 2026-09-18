@@ -8,6 +8,7 @@ import { HeaderV4 } from "@/components/header-v4"
 import { Footer } from "@/components/footer"
 import { FloatingDona } from "@/components/floating-dona"
 import { AccessibilityMenu } from "@/components/accessibility-menu"
+import { VisitorCounter } from "@/components/visitor-counter"
 
 const montserrat = Montserrat({ 
   subsets: ["latin"],
@@ -44,22 +45,11 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   keywords: ['fundación', 'ONG', 'desarrollo social', 'etnoeducación', 'Colombia', 'comunidades vulnerables', 'inclusión social'],
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
+
 }
 
 export default function RootLayout({
@@ -77,6 +67,7 @@ export default function RootLayout({
         <Footer />
         <FloatingDona />
         <AccessibilityMenu />
+        <VisitorCounter initialCount={12450} />
         {process.env.NODE_ENV === 'production' && <Analytics />}
         
         {/* Google Translate Integration */}
@@ -89,7 +80,6 @@ export default function RootLayout({
               function googleTranslateElementInit() {
                 new window.google.translate.TranslateElement({
                   pageLanguage: 'es',
-                  includedLanguages: 'es,en',
                   autoDisplay: false
                 }, 'google_translate_element');
               }
@@ -100,6 +90,7 @@ export default function RootLayout({
           src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" 
           strategy="afterInteractive"
         />
+
       </body>
     </html>
   )

@@ -10,6 +10,14 @@ export function HeaderV4() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
 
+  const changeLanguage = (langCode: string) => {
+    const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+    if (select) {
+      select.value = langCode;
+      select.dispatchEvent(new Event('change'));
+    }
+  }
+
   return (
     <header className="fixed top-0 left-0 w-full z-[100]">
       {/* Top Bar (Dark Teal) */}
@@ -48,22 +56,72 @@ export function HeaderV4() {
           </div>
           
           <div className="flex items-center gap-6">
-            {/* Language Toggle */}
-            <div 
-              className="flex items-center gap-2 hover:text-[#0b3b45] hover:bg-white cursor-pointer transition-colors font-bold text-xs bg-white/10 px-3 py-1.5 rounded-full border border-white/20 tracking-wider"
-              onClick={() => {
-                const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-                if (select) {
-                  const currentLang = select.value || 'es';
-                  select.value = currentLang === 'en' ? 'es' : 'en';
-                  select.dispatchEvent(new Event('change'));
-                }
-              }}
-            >
-              <span className="flex items-center gap-1">
-                <Globe className="w-3.5 h-3.5" /> EN
-              </span>
+            {/* Selector de Idiomas Multilingüe */}
+            <div className="relative group">
+              <div 
+                className="flex items-center gap-1.5 hover:text-[#0b3b45] hover:bg-white cursor-pointer transition-colors font-bold text-xs bg-white/10 px-3 py-1.5 rounded-full border border-white/20 tracking-wider"
+              >
+                <Globe className="w-3.5 h-3.5 text-brand-sand" />
+                <span>IDIOMA</span>
+                <ChevronDown className="w-3 h-3 ml-0.5 opacity-70 group-hover:rotate-180 transition-transform" />
+              </div>
+
+              {/* Menu Desplegable de Idiomas */}
+              <div className="absolute right-0 top-full pt-2 hidden group-hover:block z-50">
+                <div className="w-48 bg-[#0b3b45] border border-white/20 rounded-2xl shadow-2xl p-2 flex flex-col gap-1 text-xs">
+                  <button 
+                    onClick={() => changeLanguage('es')}
+                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-white/10 text-white font-medium text-left transition-colors"
+                  >
+                    <span>Español (ES)</span>
+                    <span className="text-[10px] text-brand-sand font-bold">Original</span>
+                  </button>
+                  <button 
+                    onClick={() => changeLanguage('en')}
+                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-white/10 text-white font-medium text-left transition-colors"
+                  >
+                    <span>English (EN)</span>
+                    <span className="text-[10px] text-white/50">Inglés</span>
+                  </button>
+                  <button 
+                    onClick={() => changeLanguage('pt')}
+                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-white/10 text-white font-medium text-left transition-colors"
+                  >
+                    <span>Português (PT)</span>
+                    <span className="text-[10px] text-white/50">Portugués</span>
+                  </button>
+                  <button 
+                    onClick={() => changeLanguage('fr')}
+                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-white/10 text-white font-medium text-left transition-colors"
+                  >
+                    <span>Français (FR)</span>
+                    <span className="text-[10px] text-white/50">Francés</span>
+                  </button>
+                  <button 
+                    onClick={() => changeLanguage('it')}
+                    className="flex items-center justify-between px-3 py-2 rounded-xl hover:bg-white/10 text-white font-medium text-left transition-colors"
+                  >
+                    <span>Italiano (IT)</span>
+                    <span className="text-[10px] text-white/50">Italiano</span>
+                  </button>
+                  <div className="h-px bg-white/10 my-1" />
+                  <button 
+                    onClick={() => {
+                      const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+                      if (select) {
+                        select.focus();
+                        select.click();
+                      }
+                    }}
+                    className="flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-brand-teal/30 text-brand-sand font-bold text-left transition-colors"
+                  >
+                    <Globe className="w-3.5 h-3.5" />
+                    <span>Más idiomas...</span>
+                  </button>
+                </div>
+              </div>
             </div>
+
             
             <a 
               href="https://fundacion.islacascajal.org/afiliado"
@@ -195,7 +253,25 @@ export function HeaderV4() {
           <div className="h-px bg-gray-100" />
           <Link href="/empleo" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Bolsa de empleo</Link>
           <div className="h-px bg-gray-100" />
-          <Link href="/institucional" className="text-lg font-semibold text-gray-800" onClick={() => setIsMobileMenuOpen(false)}>Institucional</Link>
+          {/* Selector de idioma en menú móvil */}
+          <div className="h-px bg-gray-100" />
+          <div className="flex flex-col gap-2 pt-2">
+            <span className="text-xs font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
+              <Globe className="w-4 h-4 text-brand-teal" /> Seleccionar Idioma
+            </span>
+            <div className="grid grid-cols-2 gap-2">
+              <button onClick={() => { changeLanguage('es'); setIsMobileMenuOpen(false); }} className="px-3 py-2 bg-gray-50 hover:bg-brand-teal/10 hover:text-brand-teal rounded-xl text-xs font-bold text-gray-700 text-left border border-gray-100">Español (ES)</button>
+              <button onClick={() => { changeLanguage('en'); setIsMobileMenuOpen(false); }} className="px-3 py-2 bg-gray-50 hover:bg-brand-teal/10 hover:text-brand-teal rounded-xl text-xs font-bold text-gray-700 text-left border border-gray-100">English (EN)</button>
+              <button onClick={() => { changeLanguage('pt'); setIsMobileMenuOpen(false); }} className="px-3 py-2 bg-gray-50 hover:bg-brand-teal/10 hover:text-brand-teal rounded-xl text-xs font-bold text-gray-700 text-left border border-gray-100">Português (PT)</button>
+              <button onClick={() => { changeLanguage('fr'); setIsMobileMenuOpen(false); }} className="px-3 py-2 bg-gray-50 hover:bg-brand-teal/10 hover:text-brand-teal rounded-xl text-xs font-bold text-gray-700 text-left border border-gray-100">Français (FR)</button>
+              <button onClick={() => { changeLanguage('it'); setIsMobileMenuOpen(false); }} className="px-3 py-2 bg-gray-50 hover:bg-brand-teal/10 hover:text-brand-teal rounded-xl text-xs font-bold text-gray-700 text-left border border-gray-100">Italiano (IT)</button>
+              <button onClick={() => { 
+                const select = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+                if (select) { select.focus(); select.click(); }
+                setIsMobileMenuOpen(false);
+              }} className="px-3 py-2 bg-brand-teal/10 text-brand-teal rounded-xl text-xs font-bold text-left border border-brand-teal/20">Otros idiomas...</button>
+            </div>
+          </div>
           
           <Button asChild className="w-full mt-4 bg-[#2A6573] hover:bg-[#1E4D5A] text-white rounded-full h-12 text-lg font-bold">
             <Link href="https://fundacion.islacascajal.org/registro" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
@@ -204,6 +280,7 @@ export function HeaderV4() {
           </Button>
         </div>
       )}
+
     </header>
   )
 }

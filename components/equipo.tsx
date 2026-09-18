@@ -36,69 +36,69 @@ const team = [
     profile: "Es Licenciada en Educación Preescolar, Especialista en Pedagogía Infantil, Magíster en Educación y candidata a Doctora en Educación, experta y líder en gestión pedagógica con profunda vocación fortaleza en el campo de la Educación Inicial, la Primera Infancia y la gestión social.\n\nReferente Territorial de Educación Inicial, líder dinamizadora de procesos de cualificación a maestras y maestros de zonas urbanas y rurales a través de los colectivos pedagógicos del territorio, desempeñándose también como Asesora y Coordinadora Pedagógica de programas del ICBF y Tutora del programa PTAF.I 3.0 del Ministerio de Educación Nacional. Amplia experiencia en rectoría y coordinación académica de centros educativos públicos y privados.\n\nAuditora Interna de Calidad y Gestión de la Calidad para el sector educativo, certificada por ICONTEC Internacional. Líder por más de una década de diseño y ejecución de proyectos sobre niñez, familia y liderazgo en la región Pacífico y Caribe. Experta en articulación de estrategias educativas y empoderamiento a los docentes para enriquecer los ambientes de aprendizaje."
   },
   {
-    id: 4,
+    id: 5,
     name: "Germán Enrique Ruiz Valencia",
     role: "Coordinador Jurídico ",
     image: "/images/GER.jpeg",
     profile: "Abogado litigante en ejercicio y especialista en Derecho Administrativo, con experiencia en la defensa de derechos e intereses colectivos y en la representación de comunidades, especialmente de sectores en condición de vulnerabilidad. Cuenta con experiencia en procesos relacionados con acciones de grupo, participación ciudadana y defensa de los derechos de las comunidades. Complementa su formación jurídica con una amplia trayectoria en el sector cultural y musical, como docente universitario y músico especializado en instrumentos de percusión, liderando proyectos artísticos de carácter nacional e internacional y en procesos comunitarios orientados a la formación, el bienestar y el desarrollo integral de niños y jóvenes.  Su experiencia interdisciplinaria entre el Derecho, la cultura, la educación y el trabajo comunitario le ha permitido liderar y acompañar iniciativas encaminadas a generar oportunidades, fortalecer el tejido social y promover nuevas perspectivas de desarrollo y proyecto de vida para las nuevas generaciones. Se caracteriza por su liderazgo, compromiso social, capacidad de gestión, vocación de servicio y sensibilidad frente a las necesidades de las comunidades, integrando sus conocimientos profesionales y culturales para contribuir a la construcción de una sociedad más justa, participativa e incluyente. "
   },
   {
-    id: 5,
+    id: 6,
     name: "José David Valencia Valencia",
     role: "Coordinador Comercial",
     image: "/images/A5.png",
     profile: "Publicista con Especialización en Gerencia de Mercadeo Global, Especialización en Marketing Digital y Magister en Dirección Empresarial con más de una década de experiencia en la gestión de comunidades digitales, posicionamiento de marcas educativas y promoción de programas académicos orientados al ingreso universitario. Su formación en mercadeo se ha complementado con una práctica constante en el diseño de estrategias de comunicación digital, fidelización de audiencias y generación de contenidos de alto impacto.\n\nHa liderado campañas de captación y acompañamiento para estudiantes aspirantes a la educación superior, consolidando procesos de orientación vocacional y fortalecimiento académico. Su experiencia como jefe de mercadeo le ha permitido construir comunidades digitales sólidas, generar interacción significativa y potenciar la visibilidad institucional en entornos altamente competitivos.\n\nParalelamente, su trayectoria en el trabajo social se refleja en proyectos comunitarios que promueven inclusión, equidad y acceso a la educación, articulando esfuerzos con organizaciones sociales y educativas para transformar realidades locales."
   },
   {
-    id: 6,
+    id: 7,
+
     name: "Heidy Tatiana Cortés Castillo",
     role: "Coordinadora de Operaciones Financieras",
     image: "/images/A6.png",
     profile: "Contador Público especialista en finanzas con experiencia en el sector financiero y contable. Experto en análisis financiero, gestión contable, elaboración e interpretación de estados financieros, control presupuestal y cumplimiento tributario. Orientado a la optimización de procesos, la toma de decisiones estratégicas y la generación de valor para las organizaciones mediante una gestión eficiente y transparente de los recursos.\n\nReconocida por su capacidad de integrar la rigurosidad técnica con un profundo compromiso social. Su trayectoria combina la gestión financiera estratégica con el liderazgo en programas de inclusión, equidad y desarrollo comunitario.\n\nA lo largo de su carrera ha impulsado proyectos que fortalecen la sostenibilidad económica de organizaciones sociales, garantizando transparencia en el manejo de recursos y eficiencia en la planeación presupuestal. Su visión financiera se orienta hacia la responsabilidad social, articulando procesos contables y financieros con iniciativas que promueven bienestar colectivo y transformación territorial."
   },
   {
-    id: 7,
+    id: 8,
     name: "Duván Camilo Balanta Bonilla",
     role: "Coordinador de Proyectos",
     image: "/images/A7.png",
     profile: "Ingeniero Electrónico con Especialización en Gerencia de Proyectos y MBA en Proyectos, con sólida trayectoria en sistemas de acueducto, medición hidráulica y análisis de datos de caudales, presiones y demás variables críticas. Su formación técnica se complementa con una visión estratégica que integra innovación tecnológica, gestión eficiente de recursos y sostenibilidad ambiental.\n\nHa liderado proyectos de formulación y ejecución con alto impacto social y comunitario, orientados a garantizar el acceso equitativo al agua potable y mejorar la calidad de vida en territorios vulnerables. Su experiencia combina el rigor científico con la capacidad de articular actores institucionales y comunitarios, consolidando soluciones que responden tanto a necesidades técnicas como humanas."
   },
   {
-    id: 8,
+    id: 9,
     name: "Holdy Méndez Londoño",
     role: "Coordinador de Cooperación e Internacionalización",
     image: "/images/A8.png",
     profile: "Ingeniero Electrónico especialista en Gerencia de Proyectos con amplia trayectoria en el sector corporativo y público. Su experiencia combina el rigor técnico con la innovación estratégica, liderando proyectos de infraestructura TI, seguridad de redes y procesos de contratación estatal.\n\nA lo largo de su carrera ha consolidado un enfoque que trasciende lo tecnológico, integrando la gestión social como eje fundamental de cada iniciativa, impulsando proyectos que fortalecen la inclusión, la equidad y el desarrollo comunitario, articulando soluciones técnicas con impacto humano y sostenible."
   },
   {
-    id: 9,
+    id: 10,
     name: "Zayra Ramos Ramírez",
     role: "Coordinadora de Comunicaciones y Canales Digitales",
     image: "/images/A9.png",
     profile: "Ingeniera Multimedia con formación en formulación de proyectos y sólida trayectoria en el desarrollo de software y la implementación de soluciones tecnológicas innovadoras. Su formación le permite integrar creatividad, diseño digital y programación avanzada con un enfoque estratégico orientado al impacto social.\n\nHa liderado proyectos que combinan la tecnología multimedia con la gestión social, desarrollando plataformas digitales, aplicaciones y sistemas interactivos que promueven inclusión, participación ciudadana y fortalecimiento comunitario. Su visión se centra en utilizar la innovación tecnológica como herramienta para la transformación social y el desarrollo sostenible."
   },
   {
-    id: 10,
+    id: 11,
     name: "Roberto Robles Castrillo",
     role: "Coordinador de las Artes, las Culturas y los Saberes",
     image: "/images/A10.png",
     profile: "Magister en educación superior, Especialista en docencia universitaria, Licenciado en Educación artística, es influenciado por el maestro de la crítica de la mirada Bruno Tackels. Discípulo del pedagogo Eduardo Pastrana Rodríguez. Creador del programa de pregrado Gestión cultural y Artística del FCECEP, Ministerio de Educación Nacional de Colombia.\n\nGestor cultural, investigador y docente con larga experiencia en la administración cultural y artística en educación superior. Lideró la coordinación de arte y cultura de la Universidad Santiago de Cali, donde diseñó e implementó programas académicos y proyectos de formación en gestión cultural, educación artística y políticas culturales.\n\nCo-investigador en proyectos del Ministerio de Cultura sobre emprendimiento cultural y políticas públicas, y autor de libros como Partitura de las Emociones y Sensibilidad estética entre saberes científicos y artísticos. Su trayectoria incluye participación en redes de gestores culturales, formulación de planes decenales de cultura y dirección del Observatorio Cultural de Cali, consolidándose como un referente en el diseño, planeación y evaluación de proyectos culturales y educativos."
   },
   {
-    id: 11,
+    id: 12,
     name: "Gladys Zamudio Tobar",
     role: "Coordinadora de Extensión",
     image: "/images/A11.png",
     profile: "Licenciada en Ciencias de la Educación, Literatura e Idiomas. Especialista en Desarrollo Intelectual y Educación y Maestría en Lingüística y Español.\n\nFundadora del Grupo de Investigación Ciencias del Lenguaje de la Facultad de Educación de la USC, el cual ha alcanzado la Categoría A otorgada por MinCiencias. Así mismo, ejerció la dirección del Centro del Lenguaje en la Institución Universitaria de las Culturas y las Artes Populares (IPC). Es creadora del Club Literario Clepsidra, un espacio enfocado en impulsar el panorama literario y cultural en el Valle del Cauca.\n\nSus proyectos se centran en procesos de comprensión y producción textual, los lenguajes de la diversidad, la deserción y permanencia estudiantil, y el valor pedagógico de los discursos narrativos. Cuenta con más de 50 publicaciones entre artículos científicos y libros formativos.\n\nAdemás de su producción científica, posee una profunda vocación poética que cultiva desde su infancia. En 2025 presentó en la Feria Internacional del Libro de Bogotá (FILBo) su poemario titulado \"Sin espinas en el cuerpo\", publicado bajo el sello editorial de la USC. Su obra poética se caracteriza por explorar la profundidad emocional, la resiliencia y el uso de la palabra como una herramienta de sanación."
   },
   {
-    id: 12,
+    id: 13,
     name: "Indhira Valdeira Valdés Salazar",
     role: "Coordinadora de Cosmovisión de Etnoeducativa",
     image: "/images/A12.png",
     profile: "Maestra de Matemáticas con formación en Etnoeducación, comprometida con la integración de los saberes ancestrales y la enseñanza científica en contextos comunitarios. Su trayectoria combina la rigurosidad académica con un enfoque intercultural, promoviendo procesos educativos que fortalecen la identidad cultural y el desarrollo social.\n\nHa liderado iniciativas pedagógicas que vinculan la enseñanza de las matemáticas con la realidad territorial y comunitaria, generando metodologías inclusivas que reconocen la diversidad cultural y fomentan la participación de estudiantes y líderes sociales. Su gestión se orienta a la construcción de proyectos educativos que contribuyen a la equidad, la cohesión social y la sostenibilidad comunitaria.\n\nTiene reconocimiento y visibilización en diversos escenarios de los derechos de las comunidades étnicas, como en la Mesa Nacional de Mujeres Negras, Afrocolombianas, Raizales y Palenqueras. Ha sido destacada en procesos comunitarios orientados al empoderamiento femenino y la participación política con enfoque étnico en el departamento del Valle del Cauca."
   }
-
 ]
 
 export function Equipo() {

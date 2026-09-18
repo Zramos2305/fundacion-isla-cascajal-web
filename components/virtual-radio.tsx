@@ -17,7 +17,7 @@ export function VirtualRadio() {
         audioRef.current.load()
       } else {
         // Enlace de prueba mientras nos entregan el real
-        audioRef.current.src = "https://streaminghd.co/user/ubuntu"
+        audioRef.current.src = "https://server2.streaminghd.co/listen/ubuntu/radio.mp3"
         const playPromise = audioRef.current.play()
         if (playPromise !== undefined) {
           playPromise
@@ -39,9 +39,8 @@ export function VirtualRadio() {
       animate={{ scale: 1, opacity: 1 }}
       className="relative inline-flex items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-2 pr-6 rounded-full shadow-2xl hover:bg-white/20 transition-colors"
     >
-      <audio ref={audioRef} preload="none" className="hidden">
-        <source src="https://streaminghd.co/user/ubuntu" type="audio/mpeg" />
-      </audio>
+      <audio ref={audioRef} preload="none" className="hidden" />
+
 
       <button
         onClick={togglePlay}
